@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.lambdapractica.NumeroHandler
+      CodeUri: /Users/areamovil/Code/Mapfre/code/AWS_Practice/SumaNumeros
+      Runtime: java11
+      Architectures:
+        - x86_64
