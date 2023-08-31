@@ -1,5 +1,6 @@
 #Comandos Docker
-//Construir una imagen
+
+Construir una imagen
 ```
 docker build -t ecs-springboot-starter .
 ```
